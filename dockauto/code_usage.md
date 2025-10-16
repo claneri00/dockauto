@@ -1,3 +1,8 @@
+cd ~/Documents/dockauto/scripts
+chmod +x auto_dock.sh
+./auto_dock.sh ~/Documents/dockauto/data/egfr.csv
+
+
 pymol -cq 1iep_pymol.py
 python3 gridbox_searcher.py sti.pdb
 python3 create_conf.py sti.pdb 1iep.conf receptor.pdbqt ligand.pdbqt 5.0 12 20 4
